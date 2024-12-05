@@ -9,7 +9,7 @@ config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.term = "xterm-256color"
 
-config.font = wezterm.font("Iosevka Term")
+config.font = wezterm.font("SF Mono")
 config.cell_width = 0.9
 config.window_background_opacity = 0.9
 config.prefer_egl = true
@@ -124,7 +124,7 @@ config.colors = {
 }
 
 config.window_frame = {
-	font = wezterm.font({ family = "Iosevka Term", weight = "Regular" }),
+	font = wezterm.font({ family = "SF Mono", weight = "Regular" }),
 	active_titlebar_bg = "#0c0b0f",
 }
 
