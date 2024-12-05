@@ -9,9 +9,10 @@ config.animation_fps = 1
 config.cursor_blink_rate = 500
 config.term = "xterm-256color"
 
-config.font = wezterm.font("SF Mono")
+config.window_background_opacity = 0.8
+config.win32_system_backdrop = "Acrylic"
+config.font = wezterm.font("Iosevka Term")
 config.cell_width = 0.9
-config.window_background_opacity = 0.9
 config.prefer_egl = true
 config.font_size = 18.0
 
@@ -21,6 +22,7 @@ config.window_padding = {
 	top = 0,
 	bottom = 0,
 }
+
 config.hide_tab_bar_if_only_one_tab = true
 config.use_fancy_tab_bar = false
 wezterm.on("toggle-colorscheme", function(window, pane)
@@ -124,7 +126,7 @@ config.colors = {
 }
 
 config.window_frame = {
-	font = wezterm.font({ family = "SF Mono", weight = "Regular" }),
+	font = wezterm.font({ family = "Iosevka Term", weight = "Regular" }),
 	active_titlebar_bg = "#0c0b0f",
 }
 
