@@ -1,3 +1,4 @@
-Install the SF Mono font [here](https://github.com/supercomputra/SF-Mono-Font)
+Install the Iosevka font [here](https://github.com/be5invis/Iosevka/releases)
 ## Preview
-![image](https://github.com/user-attachments/assets/d9f8e670-9e25-4629-abaf-21c32dacf981)
+![image](https://github.com/user-attachments/assets/1e40d4e8-56a3-4d50-aac6-98c5b30da85d)
+
