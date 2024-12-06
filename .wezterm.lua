@@ -11,10 +11,12 @@ config.term = "xterm-256color"
 
 config.window_background_opacity = 0.8
 config.win32_system_backdrop = "Acrylic"
-config.font = wezterm.font("Iosevka Term")
 config.cell_width = 0.9
 config.prefer_egl = true
 config.font_size = 18.0
+config.font = wezterm.font("Iosevka Term", { weight = "Regular" })
+
+config.color_scheme = "Cloud (terminal.sexy)"
 
 config.window_padding = {
 	left = 0,
@@ -126,7 +128,6 @@ config.colors = {
 }
 
 config.window_frame = {
-	font = wezterm.font({ family = "Iosevka Term", weight = "Regular" }),
 	active_titlebar_bg = "#0c0b0f",
 }
 
