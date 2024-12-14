@@ -1,4 +1,5 @@
-Install the "Hack" font [here](https://github.com/source-foundry/Hack/releases/download/v3.003/Hack-v3.003-ttf.zip)
+Install the "Ubuntu Mono" font on Google Fonts [here](https://fonts.google.com/specimen/Ubuntu+Mono)
 ## Preview
-![image](https://github.com/user-attachments/assets/86b8d7f7-7bb0-44cc-8d79-1ce9f704f739)
+![image](https://github.com/user-attachments/assets/3f03c12b-8e83-4a39-970e-e83544aabf40)
+
 
